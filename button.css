@@ -1,0 +1,136 @@
+.nav
+{
+    position: fixed;
+    top: 83%;
+    left: 90%;
+    width: 100px;
+    height: 100px;
+    z-index: 150;
+}
+.media
+{
+    position: relative;
+    z-index: 100;
+    top: 90%;
+    left: 95%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    cursor: pointer;
+    /* background-color: teal; */
+}
+.open
+{
+    width: 240px;
+    height: auto;
+    margin-left: -180px;
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    /* display: none; */
+    position: absolute;
+    z-index: 105;
+    top: 90%;
+    left: 96.4%;
+    /* background-color: yellow; */
+}  
+
+.A, .B, .C, .close
+{
+    position: relative;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    display: none;
+}
+
+.top
+{
+    position: relative;
+    top: -188%;
+    right: 149%;
+    text-align: right;
+    display: none;
+    z-index: 101;
+}
+.top ul
+{
+    
+    list-style-type: none;
+    width: 270px;
+    height: auto;
+}
+.top a
+{
+    text-decoration: none;
+    color: #10cfc980;
+}
+.top a:hover
+{
+    color: #10cfc9;
+    z-index: 101;
+}
+.top li
+{
+    font-size: 25px;
+    /* font-weight: bold; */
+    margin: 10px auto;
+    padding: 15px 5px 15px 20px;
+    letter-spacing: 5px;
+}
+.rectangle
+{
+    width: 40px;
+    height: 260px;
+    /* background-color: yellow; */
+    border-radius: 99em;
+    position: absolute;
+    bottom: 22%;
+    right: 132%;
+    display: none;
+}
+.circle_product
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 99px;
+    position: absolute;
+    top: 8%;
+    left: 88%;
+    background-color: #10cfc9b7;
+    display: none;
+}
+.circle_intro
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 99px;
+    position: absolute;
+    top: 32%;
+    left: 88%;
+    background-color: #10cfc9b7;
+    display: none;
+}
+.circle_number
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 99px;
+    position: absolute;
+    top: 59%;
+    left: 88%;
+    background-color: #10cfc9b7;
+    display: none;
+}
+.circle_question
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 99px;
+    position: absolute;
+    top: 85%;
+    left: 88%;
+    background-color: #10cfc9b7;
+    display: none;
+}
