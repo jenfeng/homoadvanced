@@ -1,0 +1,868 @@
+/*...start...*/
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, span, ul, li, p
+{
+    font-family: Arial, Helvetica, sans-serif, "微軟正黑體";
+    text-decoration: none;
+    list-style-type: none;
+}
+h1
+{
+    font-size: 28px;
+}
+h2, span
+{
+    font-size: 25px;
+}
+h3
+{
+    color: #00e100;
+    font-family: monospace;
+    font-size: 28px;
+    font-weight: bold;
+}
+h4
+{
+    color: #00e100;
+    font-family: monospace;
+    font-size: 28px;
+}
+h5
+{
+    color: #10cfc9;
+    letter-spacing: 3px;
+    line-height: 1.4;
+    font-size: 28px;
+    letter-spacing: 5px;
+}
+h6
+{
+    color: #10cfc9;
+    letter-spacing: 2px;
+    line-height: 1.4;
+    font-size: 24px;
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.clear
+{
+    clear: both;
+    margin: 50px auto;
+}
+
+
+
+/*...basic...*/
+.background
+{
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/NUMBER_01.png);
+    background-repeat: no-repeat;
+    position: fixed;
+    background-size: cover;
+    background-attachment: scroll;
+    /* z-index: 1; */
+    top: 0;
+    left: 0;
+}
+.container{
+    width: 1920px;
+    height: 1080px;
+    margin: 0px auto;
+    /* overflow: hidden; */
+    top: 0px;
+    left: 0px;
+    position: absolute;
+}
+.whole
+{
+    width: 100%;
+    height: auto;
+    top: -2160px;
+    left: 0px;
+    position: absolute;
+}
+.shadow
+{
+    mix-blend-mode: multiply;
+    top: 0px;
+    left: 0px;
+}
+.img{
+    max-width: 100%;
+    margin: 0px auto;
+}
+h1
+{
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: "微軟正黑體";
+    letter-spacing: 8px;
+    line-height: 2.2;
+}
+
+/*...landing page...*/
+#scene
+{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px auto;
+    /* overflow: hidden; */
+}
+.LP01
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.LP02
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+.LP03
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    mix-blend-mode: multiply;
+}
+.LP04
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+}
+.logo_gif
+{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 4;
+}
+.LP05
+{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+  mix-blend-mode: multiply;
+}
+
+/*...video...*/
+.video
+{
+    width: 100%;
+    height: 100vh;
+    z-index: 3;
+    position: relative;
+    top: 1081px;
+    left: 0;
+    position: absolute;
+    /* display: inline-block; */
+}
+.word
+{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 3px;
+    background-color: rgba(0, 0, 0, 0.938);
+    z-index: 50;
+    position: absolute;
+    top: 1081px;
+    left: 0px;
+}
+.word h1
+{
+    position: relative;
+    top: 48%;
+    letter-spacing: 3px;
+}
+.word:hover
+{
+    transition: all 0.4s;
+    transform: scale(1.3, 1.3);
+}
+
+
+/*...product-1...*/
+.page
+{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 2162px;
+    left: 0px;
+}
+.part1
+{
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    position: relative;
+    text-align: center;
+
+}
+.rednumber
+{
+    width: 100%;
+    height: auto;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    z-index: 3;
+    /* mix-blend-mode: multiply; */
+}
+.part1 h1
+{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 30%;
+    margin: 200px auto;
+    text-align: center;
+    z-index: 5;
+}
+.shadow1
+{
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+/*...product-2...*/
+.part2
+{
+    top: 1081px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+
+}
+.shadow2
+{
+    mix-blend-mode: multiply;
+}
+.p2-2
+{
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    mix-blend-mode: multiply;
+}
+.p2-3
+{
+    z-index: 3;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+}
+.p2-4
+{
+    z-index: 4;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+
+/*...part2...*/
+.content_1 h1
+{
+    position: absolute;
+    display: inline-block;
+    width: 720px;
+    height: auto;
+    top: 14%;
+    left: 55%;
+    color: white;
+    z-index: 10;
+    text-align: left;
+    letter-spacing: 7px;
+    font-size: 28px;
+}
+.content_2 h1
+{
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    color: white;
+    z-index: 10;
+    text-align: left;
+    letter-spacing: 7px;
+    font-size: 28px;
+}
+
+/*...operating...*/
+.operating
+{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 4324px;
+    left: 0px;
+    display: inline-block;
+    text-align: center;
+    margin: 0px auto;
+}
+.one
+{
+    position: absolute;
+    top: 8%;
+    text-align: center;
+    margin: 0px auto;
+    left: 39%;
+}
+.square
+{
+    /* margin: 0px auto; */
+    position: absolute;
+    /* background-color: #fff; */
+    width: 100%;
+    height: 100px;
+    top: 18%;
+}
+.AA
+{
+    position: absolute;
+    left: 0%;
+    text-align: center;
+}
+.AA h2
+{
+    position: relative;
+    margin-top: 8px;
+    left: 7%;
+    font-size: 25px;
+    color: red;
+}
+.BB
+{
+    position: absolute;
+    left: 32.9%;
+}
+.BB h2
+{
+    position: relative;
+    margin-top: 8px;
+    left: 0%;
+    font-size: 25px;
+    color: red;
+}
+.CC
+{
+    position: absolute;
+    right: 0%;
+}
+.CC h2
+{
+    position: relative;
+    margin-top: 8px;
+    left: -5%;
+    font-size: 25px;
+    color: red;
+}
+.pic
+{
+    position: absolute;
+    /* margin: 0px auto; */
+    bottom: 0%;
+    z-index: 4;
+}
+
+.two
+{
+    position: absolute;
+    top: 63%;
+    text-align: center;
+    left: 20%;
+}
+
+/*...number...*/
+.number
+{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 5405px;
+    left: 0px;
+}
+.shadow3
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    mix-blend-mode: multiply;
+}
+.text
+{
+    z-index: 5;
+    top: 3%;
+    left: 0px;
+    width: 100%;
+    position: absolute;
+    margin: 0px auto;
+    text-align: center;
+}
+.text span
+{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "微軟正黑體";
+    letter-spacing: 3px;
+    display: inline-block;
+}
+.type
+{
+    z-index: 3;
+    position: absolute;
+    top: 49%;
+    left: 24%;
+    margin: 0px auto;
+    width: 900px;
+    text-align: center;
+}
+.type ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.type ul li
+{
+    width: 150px;
+    height: 150px;
+    border-bottom: 5px solid #10cfc9;
+}
+.type ul li:first-child
+{
+    width: 150px;
+    height: 150px;
+    border: none;
+    color: #10cfc9;
+    font-size: 55px;
+    line-height: 1;
+    letter-spacing: 15px;
+    text-align: right;
+}
+.type h2:first-child
+{
+    line-height: 1.8;
+    margin-top: 20px;
+}
+.show2030
+{
+    width: 710px;
+    height: 100px;
+    left: 36%;
+    top: 52%;
+    /* background-color: #fff; */
+    position: absolute;
+    z-index: 3;
+}
+.n2030
+{
+    display: none;
+    width: 710px;
+    height: 100px;
+    left: 21%;
+    top: 15%;
+    /* background-color: beige; */
+    position: absolute;
+    color: #10cfc9;
+    font-size: 100px;
+    letter-spacing: 135px;
+    padding-left: 40px;
+    z-index: 2;
+}
+
+.submit
+{
+    z-index: 8;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    /* margin: 60px auto 10px auto; */
+    border: 2px solid #10cfc9;
+    /* clip-path: polygon(5% 0, 95% 0, 100% 15%, 100% 90%, 95% 100%, 5% 100%, 0 90%, 0 5%); */
+    font-size: 28px;
+    background: none;
+    color: #10cfc9;
+    letter-spacing: 5px;
+    display: inline-block;
+    padding: 25px;
+}
+.submit a
+{
+    color: #10cfc9;
+    display: inline-block;
+    text-decoration: none;
+}
+.submit:hover
+{
+    background-color: #10cfc970;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.submit a:hover
+{
+    color: white;
+    font-weight: 600;
+}
+.scroll
+{
+    position: absolute;
+    margin: 0px auto;
+    z-index: 9;
+    top: 85%;
+    left: 45%;
+    width: 80%;
+    height: auto;
+    animation: jump 0.8s ease-in-out infinite;
+    display: none;
+}
+@keyframes jump
+{
+    0%{ top: 85%}
+    50%{ top: 87%;}
+    100%{ top: 85%;}
+}
+
+/*...form...*/
+.form
+{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 6486px;
+    left: 0px;
+    display: none;
+    /* overflow: hidden; */
+}
+.shadow4
+{
+    mix-blend-mode: multiply;
+}
+.chart
+{
+    position: absolute;
+    top: 0;
+    margin: 0px auto;
+    z-index: 3;
+}
+.c
+{
+    position: relative;
+    /* left: 115%; */
+}
+  
+.highlight
+{
+    font-size: 19px;
+    animation: 1s blink infinite alternate;
+    color: red;
+    top: 31.5%;
+    left: 145.8%;
+    letter-spacing: 5px;
+    font-weight: 900;
+    position: absolute;
+    text-shadow: rgb(133, 9, 9) 1px 1px 2px;
+}
+@keyframes blink {
+    50% {
+        color: transparent;
+    }
+}
+
+.form h1
+{
+    text-align: center;
+    position: relative;
+    top: 0px;
+    width: 650px;
+    margin: 0 auto;
+    line-height: 2;
+    
+}
+/*...question...*/
+.question
+{
+    position: absolute;
+    width: 900px;
+    text-align: center;
+    top: 75%;
+    left: 28%;
+    margin: 0px auto;
+    z-index: 5;
+    display: none;
+    /* overflow: hidden; */
+}
+h2
+{
+    color: #10cfc9;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "微軟正黑體";
+    letter-spacing: 5px;
+}
+span
+{
+    color: #10cfc979;
+    font-family: "微軟正黑體";
+    letter-spacing: 3px;
+}
+.choice
+{
+    width: 800px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left
+{
+    width: 220px;
+    position: relative;
+    margin: 0px auto;
+    display: flex;
+    z-index: 5;
+    overflow: hidden;
+}
+.right
+{
+    width: 220px;
+    position: relative;
+    margin: 0px auto;
+    display: flex;
+    z-index: 4;
+    overflow: hidden;
+}
+.q2, .q3, .q4
+{
+    display: none;
+}
+.E:hover, .I:hover, .S:hover, .N:hover, .T:hover, .F:hover, .J:hover, .P:hover
+{
+    /* background-color: rgba(0,0,0,0.5); */
+	transition: all 0.4s;
+    transform: scale(1.1, 1.1);
+    text-shadow: rgba(48, 138, 145, 0.89) 1px 1px 2px;
+}
+
+/*...after question...*/
+.after
+{
+    display: none;
+}
+.shadow_a
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    z-index: 15;
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+.progress
+{
+    background: rgba(214, 54, 54, 0.226);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: absolute;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 500px;
+    top: 47%;
+    left: 38%;
+    z-index: 30;
+    margin: 0px auto;
+    text-align: center;
+}
+  
+.progress-value
+{
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #f533403a;
+    border-radius: 100px;
+    background: #f5333f;
+    height: 30px;
+    text-align: center;
+    width: 0;
+    z-index: 30;
+}
+@keyframes load
+{
+    0% { width: 0; opacity: 100%;}
+    20% { width: 43%; opacity: 20%;}
+    35% { width: 63%; opacity: 0%;} 
+    100% { width: 90%; opacity: 0%;}
+}
+.text_load
+{
+    position: absolute;
+    font-weight: 900;
+    font-size: 20px;
+    top: 27%;
+    left: 36%;
+    z-index: 32;
+    letter-spacing: 2px;
+    color: black;
+}
+  
+.hacker
+{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 25;
+    animation: hack 6s ease 1s 1 normal none;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    opacity: 0;
+    z-index: 35;
+}
+@keyframes hack
+{
+    0% { opacity: 100%;}
+    30% { opacity: 100%; }
+    60% { opacity: 100%; }
+    100% { opacity: 0%; }
+}
+.error
+{
+    position: absolute;
+    top: 33%;
+    left: 27%;
+    z-index: 28;
+    animation: error 60s step-end;
+    opacity: 0;
+    z-index: 40;
+}
+@keyframes error
+{
+    0% { opacity: 0%;}
+    7% { opacity: 100%; }
+    100% { opacity: 100%;}
+}
+.error_btn
+{
+    width: 100px;
+    height: 25px;
+    border-radius: 30px;
+    position: absolute;
+    top: 60%;
+    left: 49%;
+    z-index: 30;
+    background-color: #f5333f;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-top: 3px;
+}
+
+/*...terminal...*/
+.terminal
+{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+    background: black;
+    overflow: hidden;
+}
+/* DEMO-SPECIFIC STYLES */
+.typewriter
+{
+    padding: 23px 50px;
+    line-height: 1.25;
+    letter-spacing: 4px;
+}
+.typewriter h3
+{
+    margin: 6px auto;
+}
+
+/*...CONTACT...*/
+.contact
+{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 6486px;
+    left: 0px;
+    z-index: 1;
+}
+.shadow5
+{
+    mix-blend-mode: multiply;
+    position: relative;
+}
+.pic07
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.contact_qa
+{
+    position: absolute;
+    top: 17%;
+    left: 13%;
+}
+.Q1, .Q2, .Q3, .Q4, .Q5, .Q6
+{
+    font-size: 25px;
+    letter-spacing: 2px; 
+    color: #10cfc9;
+    margin-top: 25px;
+}
+.AAA
+{
+    margin-top: 14px;
+    margin-left: -3px;
+}
+.A1, .A2, .A3, .A4, .A5, .A6
+{
+    font-size: 22px;
+    letter-spacing: 2px; 
+    padding-left: 28px;
+    margin-top: -28px;
+    color: #10cfc9e0;
+    line-height: 1.3;
+}
