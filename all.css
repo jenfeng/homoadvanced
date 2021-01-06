@@ -3,6 +3,7 @@
     box-sizing: border-box;
 }
 
+
 h1, h2, h3, h4, h5, h6, span, ul, li, p
 {
     font-family: Arial, Helvetica, sans-serif, "微軟正黑體";
@@ -73,7 +74,7 @@ a{
     left: 0;
 }
 .container{
-    width: 1920px;
+    width: 100%;
     height: 1080px;
     margin: 0px auto;
     /* overflow: hidden; */
@@ -89,7 +90,7 @@ a{
     left: 0px;
     position: absolute;
 }
-.shadow
+.shadow, .shadow_1
 {
     mix-blend-mode: multiply;
     top: 0px;
@@ -133,6 +134,7 @@ h1
     top: 0px;
     left: 0px;
     z-index: 2;
+    mix-blend-mode: multiply;
 }
 .LP03
 {
@@ -140,7 +142,7 @@ h1
     top: 0px;
     left: 0px;
     z-index: 3;
-    mix-blend-mode: multiply;
+    
 }
 .LP04
 {
@@ -148,13 +150,14 @@ h1
     top: 0px;
     left: 0px;
     z-index: 4;
+    
 }
 .logo_gif
 {
   position: absolute;
   top: 0px;
   left: 0px;
-  z-index: 4;
+  z-index: 2;
 }
 .LP05
 {
@@ -176,11 +179,18 @@ h1
     left: 0;
     position: absolute;
     /* display: inline-block; */
+    color: white;
+}
+.scan
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 .word
 {
     width: 100%;
-    height: 100%;
+    height: 1080px;
     text-align: center;
     font-size: 25px;
     color: white;
@@ -196,11 +206,16 @@ h1
     position: relative;
     top: 48%;
     letter-spacing: 3px;
+    padding: 50px;
 }
-.word:hover
+.word h1:hover
 {
     transition: all 0.4s;
     transform: scale(1.3, 1.3);
+}
+.word a
+{
+    color: white;
 }
 
 
@@ -250,7 +265,7 @@ h1
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 4;
+    z-index: 2;
 }
 
 /*...product-2...*/
@@ -354,7 +369,12 @@ h1
     position: absolute;
     left: 0%;
     text-align: center;
+    opacity: 30%;
 }
+/* .AA:hover
+{
+    opacity: 100%;
+} */
 .AA h2
 {
     position: relative;
@@ -367,6 +387,7 @@ h1
 {
     position: absolute;
     left: 32.9%;
+    opacity: 30%;
 }
 .BB h2
 {
@@ -380,6 +401,7 @@ h1
 {
     position: absolute;
     right: 0%;
+    opacity: 30%;
 }
 .CC h2
 {
@@ -502,6 +524,7 @@ h1
     letter-spacing: 135px;
     padding-left: 40px;
     z-index: 2;
+    font-family: monospace;
 }
 
 .submit
@@ -543,18 +566,48 @@ h1
     position: absolute;
     margin: 0px auto;
     z-index: 9;
-    top: 85%;
+    top: 83%;
     left: 45%;
     width: 80%;
     height: auto;
-    animation: jump 0.8s ease-in-out infinite;
-    display: none;
 }
-@keyframes jump
+.scroll_1
 {
-    0%{ top: 85%}
-    50%{ top: 87%;}
-    100%{ top: 85%;}
+    position: absolute;
+    margin: 0px auto;
+    z-index: 9;
+    top: 86%;
+    left: 48%;
+    width: 40%;
+    height: auto;
+    animation: 1s jump1 infinite alternate;
+}
+.scroll_2
+{
+    position: absolute;
+    margin: 0px auto;
+    z-index: 9;
+    top: 89%;
+    left: 48%;
+    width: 40%;
+    height: auto;
+    animation: 1s jump2 infinite alternate;
+}
+@keyframes jump1
+{
+    0% { opacity: 0; }
+    25% { opacity: 1; }
+    50% { opacity: 0; }
+    75% { opacity: 1; }
+    100% { opacity: 0; }
+}
+@keyframes jump2
+{
+    0% { opacity: 1; }
+    25% { opacity: 0; }
+    50% { opacity: 1; }
+    75% { opacity: 0; }
+    100% { opacity: 1; }
 }
 
 /*...form...*/
@@ -590,8 +643,8 @@ h1
     font-size: 19px;
     animation: 1s blink infinite alternate;
     color: red;
-    top: 31.5%;
-    left: 145.8%;
+    top: 35%;
+    left: 48.5%;
     letter-spacing: 5px;
     font-weight: 900;
     position: absolute;
@@ -804,8 +857,39 @@ span
     left: 0px;
     display: none;
     background: black;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
+.tv
+{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+.yes_btn
+{
+    position: absolute;
+    top: 85%;
+    left: 70%;
+    background-color: cadetblue;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: monospace;
+    z-index: 3;
+}
+.no_btn
+{
+    position: absolute;
+    top: 85%;
+    left: 75%;
+    background-color: cadetblue;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-family: monospace;
+    z-index: 3;
+}
+
 /* DEMO-SPECIFIC STYLES */
 .typewriter
 {
@@ -818,6 +902,18 @@ span
     margin: 6px auto;
 }
 
+/*...END...*/
+.end
+{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+
 /*...CONTACT...*/
 .contact
 {
@@ -828,10 +924,10 @@ span
     left: 0px;
     z-index: 1;
 }
-.shadow5
+.shadow5 img
 {
     mix-blend-mode: multiply;
-    position: relative;
+    /* position: relative; */
 }
 .pic07
 {
