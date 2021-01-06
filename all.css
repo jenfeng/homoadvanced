@@ -865,6 +865,13 @@ span
     height: 100vh;
     position: absolute;
 }
+.end img
+{
+    position: absolute;
+    top: 1081px;
+    left: 0px;
+    margin-top: 0px;
+}
 .yes_btn
 {
     position: absolute;
