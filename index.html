@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./all.css">
     <link rel="stylesheet" href="./button.css">
+    <link rel="stylesheet" href="./final.css">
 
 </head>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
-<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
 
 <script>
@@ -66,6 +67,8 @@
 
         $(".submit").click(function(){
             $(".scroll").show();
+            $(".scroll_1").show();
+            $(".scroll_2").show();
             $(".form").show();
             $(".question").show();
             $("#contact").hide();
@@ -115,7 +118,9 @@
             $(".LP04").hide();
             $(".LP05").hide();
             $(".logo_gif").hide();
-            
+            $(".scroll").hide();
+            $(".scroll_1").hide();
+            $(".scroll_2").hide();
             $(".video").hide();
             $(".page").hide();
             $(".operating").hide();
@@ -123,10 +128,26 @@
             $(".form").hide();
             $(".terminal").show();
             $(".background").hide();
+            $(".word").hide();
+    
         });
 
         $(".show2030").click(function(){
             $(".n2030").show();
+        });
+
+
+        $(".btnq1").click(function(){
+            $(".AAA").show();
+            $(".A1").show();
+        });
+
+        $(".yes_btn").click(function(){
+            $(".typewriter").hide();
+            $(".end").show();
+            $(".background").show();
+            $(".tv").hide();
+
         });
 
     });
@@ -136,14 +157,15 @@
 </script>
 
 <body>
-	<bgsound src="./img/bgsound.mp3" autostart="true" loop="-1" volume="100" hidden="true"></bgsound>
+    <!-- <audio src="./img/bgsound.mp3" preload autostart="true" loop="infinite" volume="100" hidden ></audio> -->
+    <embed src="./img/bgsound.mp3" loop="infinite" hidden="true" autostart="true">
     <div class="nav">
         <div class="media"><img src="./img/+.png" alt="" width="45px" height="45"></div>
         <div class="open">
             <div class="A"><a href="https://www.facebook.com/" target="blank"><img src="./img/fb.png" alt="" width="45px" height="45"></a></div>
             <div class="B"><a href="mailto:homoadvanced@google.com"><img src="./img/email.png" alt="" width="45px" height="45"></a></div>
             <div class="C"><a href="https://www.behance.net/" target="blank"><img src="./img/behance.png" alt="" width="45px" height="45"></a></div>
-            <div class="close"><a href=""><img src="./img/x.png" alt="" width="45px" height="45"></a></div>
+            <div class="close"><a href="#"><img src="./img/x.png" alt="" width="45px" height="45"></a></div>
         </div>
         <div class="rectangle"></div>
         <div class="top">
@@ -166,22 +188,26 @@
 
         <!--landing page-->
         <div id="landingpage" class="page">
-            <img class="whole" src="./img/logogif_wholepage.gif" alt="">
-            <!-- <ul id="scene">
-                <li class="LP01" data-depth=".1"><img src="./img/LP_01.png" alt=""></div>
-                <li class="LP02" data-depth="1"><img src="./img/LP_02.png" alt=""></li>
-                <li class="LP03" data-depth="-1"><img src="./img/LP_03.png" alt=""></li>
-                <li class="LP04" data-depth="2"><img src="./img/LP_04.png" alt=""></li>
-                <li class="logo_gif" data-depth="2"><img src="./img/logo.gif" alt=""></li>
-                <li class="LP05" data-depth="0.5"><img src="./img/LP_05.png" alt=""></li>
-            </ul> -->
+            <!-- <img class="whole" src="./img/logogif_wholepage.gif" alt=""> -->
+            <ul id="scene">
+                <li class="LP01"><img src="./img/LP_01.png" alt=""></div>
+                <li class="LP02"><img src="./img/LP_04.png" alt=""></li>
+                <li class="LP03"><img src="./img/LP_03.png" alt=""></li>
+                <li class="LP04"><img src="./img/LP_02.png" alt=""></li>
+                <li class="logo_gif"><img src="./img/LP_01.gif" alt=""></li>
+                <!-- <li class="LP05"><img src="./img/LP_05.png" alt=""></li> -->
+            </ul>
+
+            <div class="scroll"><img src="./img/scroll.png" alt="" width="13%"></div>
+            <div class="scroll_1"><img src="./img/scroll01.png" alt="" width="10%"></div>
+            <div class="scroll_2"><img src="./img/scroll02.png" alt="" width="10%"></div>
         </div>
        
         <!--video-->
-        <a href="#"><div class="word"><h1>來自西元2030年的一則訊息_</h1></div></a>
+        <div class="word"><a class="video_a" href="#video"><h1>來自西元2030年的一則訊息_</a></h1></div>
 
-        <div class="video">
-            <iframe width="1920" height="1080" src="https://www.youtube.com/embed/E0IYiPZJNuA" 
+        <div id="video" class="video">
+            <iframe width="1920" height="1080" src="https://www.youtube.com/embed/BDqjizPvTaA" 
                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
         </div>
@@ -210,8 +236,9 @@
                 <div class="shadow2"><img src="./img/PRODUCT_02-2.png" alt=""></div>
                 
                 <!-- <div class="p2-2"><img src="./img/PRODUCT_02-2.png" alt=""></div> -->
-                <div class="p2-3"><img src="./img/PRODUCT_02-3.png" alt=""></div>
-                <div class="p2-4"><img src="./img/PRODUCT_02-4.png" alt=""></div>
+                <!-- <div class="p2-3"><img src="./img/PRODUCT_02-3.png" alt=""></div>
+                <div class="p2-4"><img src="./img/PRODUCT_02-4.png" alt=""></div> -->
+                <video class="scan" width="1920" height="1080" src="img/PRODUCT_02-3.mov" preload="auto" muted="muted" autoplay="autoplay" loop="loop"></video>
                 <div class="content_1">
                     <h1>
                         藉由MNT2030奈米機器人影響腦部神經細胞 <br>
@@ -262,7 +289,7 @@
                     很幸運地 <br>
                     要告訴看到這裡的你 <br>
                     我們將提供你一個參與計畫以及決定未來世界的機會_ <br>
-                    去找線索吧！ <br>
+                    去找到線索吧！ <br>
                     <span>( 提示：計畫成真的那一年 )</span><br>
                     . <br>
                 </h1>
@@ -280,7 +307,9 @@
 
             <a href="#number"><div class="submit">送出並享受全新人生吧！</div></a>
             <div class="show2030"></div>
-            <div class="scroll"><img src="./img/scroll.png" alt="" width="13%"></div>
+            <div class="scroll" style="display: none;"><img src="./img/scroll.png" alt="" width="13%"></div>
+            <div class="scroll_1" style="display: none;"><img src="./img/scroll01.png" alt="" width="10%"></div>
+            <div class="scroll_2" style="display: none;"><img src="./img/scroll02.png" alt="" width="10%"></div>
 
         </div>
 
@@ -360,15 +389,20 @@
                 </div>
                 <div class="error">
                     <img src="./img/error.png" alt="">
-                    <a href="#container"><div class="error_btn">OMG!!!</div></a>
+                    <a href="#container"><div class="error_btn">CANCEL</div></a>
                 </div>
                 
             </div>
         </div>
 
         <!--terminal-->
-        <div class="terminal">
-            <div class="typewriter">
+        <div id="terminal" class="terminal">
+            <video autoplay class="tv" src="./img/terminal.mp4" preload="auto" controls loop="none"></video>
+
+            <a href="#end"><div class="yes_btn">YES</div></a>
+            <a href="#end"><div class="no_btn">NO</div></a>
+
+            <!-- <div class="typewriter">
                 <h3> — Message From 人類再版計畫主持人 —</h3>
                 <h4>嗨，我是Homo，<br>很好奇為什麼我用這種方式和你溝通吧？</h4>
                 <h3>Press Y or ENTER to continue</h3>
@@ -409,16 +443,36 @@
                 </h4>
                 <h3>這是你第二次選擇的機會，Press Y or N to continue</h3>
                 <div class="clear"></div>
-                
 
+                <video class="fakeworld" src="img/fakeworld.mp4" preload="auto" autoplay="autoplay" loop="loop"></video>
+            </div> -->
 
+        </div>
+        <!--END-->
+        <div class="end">
+            <div class="shadow6"><img src="./img/final.png" alt=""></div>
+            <h1>
+                為了讓人人找到合適的自我、不再盲從標準與完美_ <br>
+                我們提供了你更認識自我的機會_ <br>
+                從現在開始，找到屬於自己的未來吧_
+            </h1>
+            <div class="clear"></div>
+            <div class="option">
+                <div class="people"><img src="./img/people.png" alt=""></div>
+                <div class="object"><img src="./img/object.png" alt=""></div>
+                <div class="thing"><img src="./img/thing.png" alt=""></div>
+            </div>
+            <div class="option_h">
+                <div class="people"><img src="./img/people_h.png" alt=""></div>
+                <div class="object"><img src="./img/object_h.png" alt=""></div>
+                <div class="thing"><img src="./img/thing_h.png" alt=""></div>
             </div>
 
         </div>
 
         <!--CONTACT-->
         <div id="contact" class="contact">
-            <div class="shadow5"><img src="./img/CONTACT.png" alt=""></div>
+            <div class="shadow5"><img src="./img/QA.png" alt=""></div>
 
             <!-- <div class="pic07"><img src="./img/07.png" alt=""></div> -->
             <div class="contact_qa">
@@ -470,8 +524,7 @@
                     </li>
                 </ul>
             
-        </div>
-            
+            </div> 
         </div>
         
         
