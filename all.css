@@ -920,7 +920,16 @@ span
     display: none;
 }
 
-
+/*...FINAL...*/
+.fffinal
+{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
 
 /*...CONTACT...*/
 .contact
