@@ -142,21 +142,25 @@
             $(".A1").show();
         });
 
-        $(".no_btn").click(function(){
-            $(".typewriter").hide();
-            $(".end").show();
-            $(".background").show();
-            $(".tv").show();
-            $(".yes_btn").hide();
-            $(".no_btn").hide();
-        });
         $(".yes_btn").click(function(){
             $(".typewriter").hide();
             $(".end").show();
             $(".background").show();
-            $(".tv").hide();
+            $(".end").show();
+            $(".final").show();
             $(".yes_btn").hide();
             $(".no_btn").hide();
+
+        });
+        $(".no_btn").click(function(){
+            $(".typewriter").hide();
+            $(".end").hide();
+            $(".background").show();
+            $(".tv").hide();
+            $(".final").show();
+            $(".yes_btn").hide();
+            $(".no_btn").hide();
+            $(".fffinal").show();
         });
 
     });
@@ -409,7 +413,7 @@
             <video autoplay class="tv" src="./img/terminal.mp4" preload="auto" controls loop="none"></video>
 
             <a href="#end"><div class="yes_btn">YES</div></a>
-            <a href="#end"><div class="no_btn">NO</div></a>
+            <a href="#final"><div class="no_btn">NO</div></a>
 
             <!-- <div class="typewriter">
                 <h3> — Message From 人類再版計畫主持人 —</h3>
@@ -461,7 +465,7 @@
         <div class="end">
             <!-- <div class="shadow6"><img src="./img/final.png" alt=""></div> -->
             <video autoplay class="tv" src="./img/fakeworld.mp4" preload="auto" controls loop="none"></video>
-            <img src="./img/final_hover.png" alt="">
+            <img id="final" class="final" src="./img/final_hover.png" alt="">
             <!-- <h1>
                 為了讓人人找到合適的自我、不再盲從標準與完美_ <br>
                 我們提供了你更認識自我的機會_ <br>
@@ -478,6 +482,10 @@
                 <div class="object"><img src="./img/object_h.png" alt=""></div>
                 <div class="thing"><img src="./img/thing_h.png" alt=""></div>
             </div> -->
+        </div>
+        <!--FINAL-->
+        <div class="fffinal">
+            <img id="fffinal"  src="./img/final_hover.png" alt="">
         </div>
 
         <!--CONTACT-->
