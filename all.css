@@ -567,8 +567,8 @@ h1
     margin: 0px auto;
     z-index: 9;
     top: 82%;
-    left: 45%;
-    width: 1600px;
+    left: 43%;
+    width: 150px;
     height: auto;
 }
 .scroll_1
@@ -912,6 +912,7 @@ span
     left: 0px;
     display: none;
 }
+
 
 
 /*...CONTACT...*/
