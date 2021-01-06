@@ -62,7 +62,7 @@ a{
 /*...basic...*/
 .background
 {
-    width: 100%;
+    width: 1920px;
     height: 100%;
     background-image: url(./img/NUMBER_01.png);
     background-repeat: no-repeat;
@@ -74,7 +74,7 @@ a{
     left: 0;
 }
 .container{
-    width: 100%;
+    width: 1920px;
     height: 1080px;
     margin: 0px auto;
     /* overflow: hidden; */
@@ -369,7 +369,7 @@ h1
     position: absolute;
     left: 0%;
     text-align: center;
-    opacity: 30%;
+    /* opacity: 30%; */
 }
 /* .AA:hover
 {
@@ -381,13 +381,13 @@ h1
     margin-top: 8px;
     left: 7%;
     font-size: 25px;
-    color: red;
+    color: #f5333f;
 }
 .BB
 {
     position: absolute;
     left: 32.9%;
-    opacity: 30%;
+    /* opacity: 30%; */
 }
 .BB h2
 {
@@ -395,13 +395,13 @@ h1
     margin-top: 8px;
     left: 0%;
     font-size: 25px;
-    color: red;
+    color: #f5333f;
 }
 .CC
 {
     position: absolute;
-    right: 0%;
-    opacity: 30%;
+    left: 60.9%;
+    /* opacity: 30%; */
 }
 .CC h2
 {
@@ -409,7 +409,7 @@ h1
     margin-top: 8px;
     left: -5%;
     font-size: 25px;
-    color: red;
+    color: #f5333f;
 }
 .pic
 {
@@ -566,9 +566,9 @@ h1
     position: absolute;
     margin: 0px auto;
     z-index: 9;
-    top: 83%;
+    top: 82%;
     left: 45%;
-    width: 80%;
+    width: 1600px;
     height: auto;
 }
 .scroll_1
