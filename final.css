@@ -1,0 +1,44 @@
+.final
+{
+    
+}
+.shadow6
+{
+    mix-blend-mode: multiply;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+}
+.fakeworld
+{
+    width: 100%;
+    height: 100vh;
+}
+.final h1
+{
+    position: absolute;
+    top: 14%;
+    left: 30%;
+    text-align: center;
+}
+.option
+{
+    position: absolute;
+    top: 36%;
+    width: 1000px;
+    margin: 0px auto;
+    text-align: center;
+}
+.people, .object, .thing
+{
+    margin-left: 100px;
+}
+.option_h
+{
+    position: absolute;
+    width: 1000px;
+    top: 46%;
+    left: 24%;
+    
+}
