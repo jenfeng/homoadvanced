@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMO ADVANCED</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./all.css">
+    <link rel="stylesheet" href="./button.css">
+    <link rel="stylesheet" href="./final.css">
+
+</head>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+
+<script>
+    
+
+    $(document).ready(function(){
+        
+        $(".media").hover(function(){
+            $(".media").hide();
+            $(".A").show();
+            $(".B").show();
+            $(".C").show();
+            $(".close").show();
+            $(".top").show();
+            $(".rectangle").show();
+        });
+        $(".close").click(function(){
+            $(".open").hide();
+            $(".media").show();
+            $(".top").hide();
+            $(".rectangle").hide();
+        });
+        $(".product_btn").mouseenter(function(){
+            $(".circle_product").show();
+        });
+        $(".intro_btn").mouseenter(function(){
+            $(".circle_intro").show();
+        });
+        $(".number_btn").mouseenter(function(){
+            $(".circle_number").show();
+        });
+        $(".question_btn").mouseenter(function(){
+            $(".circle_question").show();
+        });
+        $(".product_btn").mouseleave(function(){
+            $(".circle_product").hide();
+        });
+        $(".intro_btn").mouseleave(function(){
+            $(".circle_intro").hide();
+        });
+        $(".number_btn").mouseleave(function(){
+            $(".circle_number").hide();
+        });
+        $(".question_btn").mouseleave(function(){
+            $(".circle_question").hide();
+        });
+
+        $(".word").click(function(){
+            $(".word").hide();
+        });
+
+
+        $(".submit").click(function(){
+            $(".scroll").show();
+            $(".scroll_1").show();
+            $(".scroll_2").show();
+            $(".form").show();
+            $(".question").show();
+            $("#contact").hide();
+        });
+
+
+        $(".E_hover").click(function(){
+            $(".q1").hide();
+            $(".q2").show();
+        });
+        $(".I_hover").click(function(){
+            $(".q1").hide();
+            $(".q2").show();
+        });
+        $(".S_hover").click(function(){
+            $(".q2").hide();
+            $(".q3").show();
+        });
+        $(".N_hover").click(function(){
+            $(".q2").hide();
+            $(".q3").show();
+        });
+        $(".T_hover").click(function(){
+            $(".q3").hide();
+            $(".q4").show();
+        });
+        $(".F_hover").click(function(){
+            $(".q3").hide();
+            $(".q4").show();
+        });
+        $(".J_hover").click(function(){
+            $(".shadow_a").show();
+            $(".after").show();
+            $(".error").show();
+        });
+        $(".P_hover").click(function(){
+            $(".shadow_a").show();
+            $(".after").show();
+            $(".error").show();
+        });
+
+
+        $(".error_btn").click(function(){
+            $(".LP01").hide();
+            $(".LP02").hide();
+            $(".LP03").hide();
+            $(".LP04").hide();
+            $(".LP05").hide();
+            $(".logo_gif").hide();
+            $(".scroll").hide();
+            $(".scroll_1").hide();
+            $(".scroll_2").hide();
+            $(".video").hide();
+            $(".page").hide();
+            $(".operating").hide();
+            $(".number").hide();
+            $(".form").hide();
+            $(".terminal").show();
+            $(".background").hide();
+            $(".word").hide();
+    
+        });
+
+        $(".show2030").click(function(){
+            $(".n2030").show();
+        });
+
+
+        $(".btnq1").click(function(){
+            $(".AAA").show();
+            $(".A1").show();
+        });
+
+        $(".yes_btn").click(function(){
+            $(".typewriter").hide();
+            $(".end").show();
+            $(".background").show();
+            $(".end").show();
+            $(".final").show();
+            $(".yes_btn").hide();
+            $(".no_btn").hide();
+
+        });
+        $(".no_btn").click(function(){
+            $(".typewriter").hide();
+            $(".end").hide();
+            $(".background").show();
+            $(".tv").hide();
+            $(".final").show();
+            $(".yes_btn").hide();
+            $(".no_btn").hide();
+            $(".fffinal").show();
+        });
+
+    });
+
+   
+
+</script>
+
+<body>
+    <!-- <audio src="./img/bgsound.mp3" preload autostart="true" loop="infinite" volume="100" hidden ></audio> -->
+    <embed src="./img/bgsound.mp3" loop="infinite" hidden="true" autostart="true" volume="70">
+    <div class="nav">
+        <div class="media"><img src="./img/+.png" alt="" width="45px" height="45"></div>
+        <div class="open">
+            <div class="A"><a href="https://www.facebook.com/" target="blank"><img src="./img/fb.png" alt="" width="45px" height="45"></a></div>
+            <div class="B"><a href="mailto:homoadvanced@google.com"><img src="./img/email.png" alt="" width="45px" height="45"></a></div>
+            <div class="C"><a href="https://www.behance.net/" target="blank"><img src="./img/behance.png" alt="" width="45px" height="45"></a></div>
+            <div class="close"><a href="#"><img src="./img/x.png" alt="" width="45px" height="45"></a></div>
+        </div>
+        <div class="rectangle"></div>
+        <div class="top">
+            <ul>
+                <a class="product_btn" href="#product"><li>計畫介紹</li></a>
+                <a class="intro_btn" href="#intro"><li>晶片功能</li></a>
+                <a class="number_btn" href="#number"><li>加入計畫</li></a>
+                <a class="question_btn" href="#contact"><li>常見問題</li></a>
+            </ul>
+
+            <div class="circle_product"></div>
+            <div class="circle_intro"></div>
+            <div class="circle_number"></div>
+            <div class="circle_question"></div>
+        </div>
+    </div>
+
+    <div id="container" class="container">
+        <div class="background"></div>
+
+        <!--landing page-->
+        <div id="landingpage" class="page">
+            <!-- <img class="whole" src="./img/logogif_wholepage.gif" alt=""> -->
+            <ul id="scene">
+                <li class="LP01"><img src="./img/LP_01.png" alt=""></div>
+                <li class="LP02"><img src="./img/LP_04.png" alt=""></li>
+                <li class="LP03"><img src="./img/LP_03.png" alt=""></li>
+                <li class="LP04"><img src="./img/LP_02.png" alt=""></li>
+                <li class="logo_gif"><img src="./img/LP_01.gif" alt=""></li>
+                <!-- <li class="LP05"><img src="./img/LP_05.png" alt=""></li> -->
+            </ul>
+
+            <div class="scroll"><img src="./img/scroll.png" alt=""></div>
+            <div class="scroll_1"><img src="./img/scroll01.png" alt="" width="10%"></div>
+            <div class="scroll_2"><img src="./img/scroll02.png" alt="" width="10%"></div>
+        </div>
+       
+        <!--video-->
+        <div class="word"><a class="video_a" href="#video"><h1>來自西元2030年的一則訊息_</a></h1></div>
+
+        <div id="video" class="video">
+            <iframe width="1920" height="1080" src="https://www.youtube.com/embed/BDqjizPvTaA" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+        </div>
+        
+        <!--product-->
+        <div class="page">
+            <div id="product" class="part1">
+                <!-- <div class="shadow_1"><img src="./img/PRODUCT_01-2.png" alt=""></div> -->
+                <img class="rednumber" src="./img/PRODUCT_01.gif" alt="">
+                <!-- <div class="shadow1"><img src="./img/PRODUCT_01-2.png" alt=""></div> -->
+                <h1>
+                    . <br>
+                    . <br>
+                    . <br>
+                    於2030年研究數據顯示 <br>
+                    加入計畫者生活受到大幅改善 <br>
+                    而其中又以第一批加入計畫的參與者成效最佳 <br>
+                    在社會中為自己爭取到較好的資源 <br>
+                    為了使更多人能擁有更好的生活 <br>
+                    人類再版計畫團隊2021年開始招募人員加入計畫_ <br>
+                    . <br>
+                    . <br>
+                </h1>
+            </div>
+            <div id="intro" class="part2">
+                <div class="shadow2"><img src="./img/PRODUCT_02-2.png" alt=""></div>
+                
+                <!-- <div class="p2-2"><img src="./img/PRODUCT_02-2.png" alt=""></div> -->
+                <!-- <div class="p2-3"><img src="./img/PRODUCT_02-3.png" alt=""></div>
+                <div class="p2-4"><img src="./img/PRODUCT_02-4.png" alt=""></div> -->
+                <img class="scan" width="1920" height="1080" src="./img/PRODUCT_02-3.gif" preload="auto" muted="muted" autoplay="autoplay" loop="loop">
+                <div class="content_1">
+                    <h1>
+                        藉由MNT2030奈米機器人影響腦部神經細胞 <br>
+                        產生相關指令訊號 <br>
+                        幫助使用者即時達到特質頂峰 <br>
+                        在各項領域拔得頭籌_ <br>
+                    </h1>
+                </div>
+                <div class="content_2">
+                    <h1>
+                        運用MBTI人格理論進行心理類型劃分 <br>
+                        準確的分析各項特質 <br>
+                        即時應對生活中遇到的困難_ <br>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        
+        <!--operating-->
+        <div class="operating">
+            <div class="shadow3"><img src="./img/OPERATING_01.png" alt=""></div>
+            <div class="pic"><img src="./img/operating_pic.png" alt=""></div>
+            <h1 class="one">植入晶片操作簡單易上手_</h1>
+            <div class="square">
+                <div class="AA"><img src="./img/operating1-2.png" alt=""><br><h2>將晶片覆蓋於後頸肌膚表面</h2></div>
+                <div class="BB"><img src="./img/operating2-2.png" alt=""><br><h2>使激活液與晶片進行作用</h2></div>
+                <div class="CC"><img src="./img/operating3-2.png" alt=""><br><h2>標誌顏色轉淡即植入成功</h2></div>
+            </div>
+            
+            <h1 class="two">
+                MNT2030奈米機器人主要增強之功能由ＭBTI人格理論進行特質分類_</br>
+                <div class="clear"></div>
+                使用者利用意識進行投票_選出想要改變或是擁有的特質_</br>
+                經過統計後送出最符合時下的功能結果_</br>
+                並影響腦內特定區域神經細胞_ <br>
+                達到特定能力增強的效果_
+            </h1>
+        </div>
+
+        <!--number-->
+        <div id="number" class="number">
+            <div class="shadow3"><img src="./img/NUMBER_02.png" alt=""></div>
+    
+            <div class="text">
+                <h1>
+                    . <br>
+                    . <br>
+                    很幸運地 <br>
+                    要告訴看到這裡的你 <br>
+                    我們將提供你一個參與計畫以及決定未來世界的機會_ <br>
+                    去找到線索吧！ <br>
+                    <span>( 提示：計畫成真的那一年 )</span><br>
+                    . <br>
+                </h1>
+            </div>
+            <div class="type">
+                <ul>
+                    <li><h2>輸入<br>序號</h2></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <div class="n2030">2030</div>
+                </ul>
+            </div>
+
+            <a href="#number"><div class="submit">送出並享受全新人生吧！</div></a>
+            <div class="show2030"></div>
+            <div class="scroll" style="display: none;"><img src="./img/scroll.png" alt="" ></div>
+            <div class="scroll_1" style="display: none;"><img src="./img/scroll01.png" alt="" width="10%"></div>
+            <div class="scroll_2" style="display: none;"><img src="./img/scroll02.png" alt="" width="10%"></div>
+
+        </div>
+
+        <!--form-->
+        <div id="form" class="form">
+            <div class="shadow4"><img src="./img/FORM.png" alt=""></div>
+
+            <div class="chart">
+                <img class="c" src="./img/chart.png" alt="">
+                <div class="highlight">LIVE</div>
+
+                <h1>
+                    2030年美好的特質由每個人共同決定 <br>
+                    我們傾聽使用者的想法 <br>
+                    隨時更新，讓生活中的麻煩迎刃而解_ <br>
+                    選擇你想要的未來吧_
+                </h1>
+            </div>
+            
+            <div class="question">
+                <div class="q1">
+                    <h2>你覺得一個完美的人偏向何種特質？...<span>(1 of 4)</span></h2>
+                    <div class="choice">
+                        <div class="left">
+                            <a href="#form" class="E_hover"><div class="E"><img src="./img/E.png" alt=""></div></a>
+                        </div>
+                        <div class="right">
+                            <a href="#form" class="I_hover"><div class="I"><img src="./img/I.png" alt=""></div></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="q2">
+                    <h2>你認為一個完美的人偏向...<span>(2 of 4)</span></h2>
+                    <div class="choice">
+                        <div class="left">
+                            <a href="#form" class="S_hover"><div class="S"><img src="./img/S.png" alt=""></div></a>
+                        </div>
+                        <div class="right">
+                            <a href="#form" class="N_hover"><div class="N"><img src="./img/N.png" alt=""></div></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="q3">
+                    <h2>你認為一個完美的人做決定時依據...<span>(3 of 4)</span></h2>
+                    <div class="choice">
+                        <div class="left">
+                            <a href="#form" class="T_hover"><div class="T"><img src="./img/T.png" alt=""></div></a>
+                        </div>
+                        <div class="right">
+                            <a href="#form" class="F_hover"><div class="F"><img src="./img/F.png" alt=""></div></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="q4">
+                    <h2>你認為一個完美的人處事態度偏向...<span>(4 of 4)</span></h2>
+                    <div class="choice">
+                        <div class="left">
+                            <a href="#form" class="J_hover"><div class="J"><img src="./img/J.png" alt=""></div></a>
+                        </div>
+                        <div class="right">
+                            <a href="#form" class="P_hover"><div class="P"><img src="./img/P.png" alt=""></div></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!--after question-->
+            <div class="after">
+                <!-- <img class="shadow_a" src="./img/FORM.png" alt=""> -->
+                <div class="shadow_a"></div>
+                <div class="progress">
+                    <div class="progress-value"></div>
+                    <div class="text_load">LOADING...</div>
+                </div>
+                <div class="hacker">
+                    <img src="./img/hacker.gif" alt="">
+                </div>
+                <div class="error">
+                    <img src="./img/error.png" alt="">
+                    <a href="#container"><div class="error_btn">確認</div></a>
+                </div>
+                
+            </div>
+        </div>
+
+        <!--terminal-->
+        <div id="terminal" class="terminal">
+            <video autoplay class="tv" src="./img/terminal.mp4" preload="auto" controls loop="none"></video>
+
+            <a href="#end"><div class="yes_btn">YES</div></a>
+            <a href="#final"><div class="no_btn">NO</div></a>
+
+            <!-- <div class="typewriter">
+                <h3> — Message From 人類再版計畫主持人 —</h3>
+                <h4>嗨，我是Homo，<br>很好奇為什麼我用這種方式和你溝通吧？</h4>
+                <h3>Press Y or ENTER to continue</h3>
+                <div class="clear"></div>
+
+
+                <h4>2030年，高齡化社會、人工智慧興盛衍生的問題、極端氣候等情況可能存在，<br>
+                    但MNT2030奈米機器人不是解方，它僅是一個虛無的幻想。 <br>
+                </h4>
+                <br>
+                <h4>你可能覺得受騙， <br>
+                    但我們的立場，一直都是希望大家能擁有更美好生活， <br>
+                    只是這個美好不是依靠MNT2030奈米機器人獲得， <br>
+                    而是你們自己。 <br>
+                </h4>
+                <h3>Press ENTER to continue</h3>
+                <div class="clear"></div>
+
+
+                <h4>我們一直被標準、完美所蠱惑。 <br>
+                    如同輸入序號，接受人類再版計畫的你一樣。 <br>
+                    輸入序號前，你思考過這項產品對你的影響了嗎？ <br>
+                </h4>
+                <h3>Press Y or N to continue</h3>
+                <div class="clear"></div>
+
+
+                <h4>
+                    我們很少停下來問：「這是不是我要的？」 <br>
+                    當人無由的崇尚某個目標或事物時， <br> 
+                    就如同進入了永無止境的莫比烏斯環。 <br>              
+                </h4>
+                <br>
+                <h4>
+                    在MNT2030存在的世界裡，盲從的我們，造就了盲目的世界... <br>
+                    我不是我、你也不是你，我們無從找到自己。 <br>
+                    這真的是你要的嗎？ <br>              
+                </h4>
+                <h3>這是你第二次選擇的機會，Press Y or N to continue</h3>
+                <div class="clear"></div>
+
+                <video class="fakeworld" src="img/fakeworld.mp4" preload="auto" autoplay="autoplay" loop="loop"></video>
+            </div> -->
+
+        </div>
+        <!--END-->
+        <div class="end">
+            <!-- <div class="shadow6"><img src="./img/final.png" alt=""></div> -->
+            <video class="tv" src="./img/fakeworld.mp4" preload="auto" controls loop="none"></video>
+            <img id="final" class="final" src="./img/final.png" alt="">
+            <h1 class="end_txt">
+                為了讓人人找到合適的自我、不再盲從標準與完美_ <br>
+                我們提供了你更認識自我的機會_ <br>
+                從現在開始，找到屬於自己的未來吧_
+            </h1>
+            <a href="https://www.16personalities.com/ch" target="_blank"><div class="person"><img src="./img/people.png" style="position: absolute; top: 0px; left: 0px; width: 102%; height: 102%;" alt=""></div></a>
+            <div class="person_txt"><p>對自我的探索_ <br> MBTI測驗_</p></div>
+
+            <a href="https://www.youtube.com/user/dontkjoan" target="_blank"><div class="object"><img src="./img/object.png" style="position: absolute; top: 0px; left: 0px; width: 99%; height: 99%;" alt=""></div></a> 
+            <div class="object_txt"><p>對物品斷捨離_ <br> 怦然心動的人生整理魔法_</p></div>
+
+            <a href="https://www.tip.org.tw/evaluatefree11" target="_blank"><div class="thing"><img src="./img/thing.png" style="position: absolute; top: 0px; left: 0px;" alt=""></div></a> 
+            <div class="thing_txt"><p>對外的感情事_ <br> 人際依附風格量表_</p></div>
+            <!-- <h1>
+                為了讓人人找到合適的自我、不再盲從標準與完美_ <br>
+                我們提供了你更認識自我的機會_ <br>
+                從現在開始，找到屬於自己的未來吧_
+            </h1>
+            <div class="clear"></div>
+            <div class="option">
+                <div class="people"><img src="./img/people.png" alt=""></div>
+                <div class="object"><img src="./img/object.png" alt=""></div>
+                <div class="thing"><img src="./img/thing.png" alt=""></div>
+            </div>
+            <div class="option_h">
+                <div class="people"><img src="./img/people_h.png" alt=""></div>
+                <div class="object"><img src="./img/object_h.png" alt=""></div>
+                <div class="thing"><img src="./img/thing_h.png" alt=""></div>
+            </div> -->
+        </div>
+        <!--FINAL-->
+        <div class="fffinal">
+            <img id="fffinal" src="./img/final_ori.png" alt="">
+            
+            
+        </div>
+
+        <!--CONTACT-->
+        <div id="contact" class="contact">
+            <div class="shadow5"><img src="./img/QA.png" alt=""></div>
+
+            <div class="pic07"><img src="./img/07.png" alt=""></div>
+            <!-- <div class="contact_qa">
+
+                <ul class="con1">
+                    <li class="Q1"><img src="./img/Q.png" alt=""> 加入這個計畫需要付費嗎？</li><br>
+                    <img class="AAA" src="./img/A.png" alt="">
+                    <li class="A1">
+                        只要於活動期間看到此宣傳網站的民眾，皆可以以輸入序號的方式加入人類再版計畫，無需支付任何費用。<br>
+                        待正式產品釋出後，則需依照原價購買。
+                    </li>
+                </ul>
+                <ul class="con2">
+                    <li class="Q2"><img src="./img/Q.png" alt=""> 植入晶片的過程會有任何感覺嗎？</li><br>
+                    <img class="AAA" src="./img/A.png" alt="">
+                    <li class="A2">
+                        由於MNT2030奈米機器人的體積為奈米單位，且植入晶片的過程非傳統的侵入式手術，<br>
+                        僅會接觸肌膚表面，無痛、方便快速。詳情請見網站中「晶片使用方式」。
+                    </li>
+                </ul>
+                <ul class="con3">
+                    <li class="Q3"><img src="./img/Q.png" alt=""> 我可以試用嗎？這個產品有試用期嗎？</li><br>
+                    <img class="AAA" src="./img/A.png" alt="">
+                    <li class="A3">
+                        MNT2030奈米機器人沒有試用期，此次以序號加入的民眾即等於正式加入。
+                    </li>
+                </ul>
+                <ul class="con4">
+                    <li class="Q4"><img src="./img/Q.png" alt=""> 植入這個晶片會不會對我造成後遺症？</li><br>
+                    <img class="AAA" src="./img/A.png" alt="">
+                    <li class="A4">
+                        人類再版計畫於2020年至2030年期間做了無數的測試與實驗，並已在2030年上市。<br>
+                        由2030回傳的實驗數據顯示，並無使用者有相關的後遺症，也符合各項標準。
+                    </li>
+                </ul>
+                <ul class="con5">
+                    <li class="Q5"><img src="./img/Q.png" alt=""> MNT2030奈米機器人會讀取我什麼資料？</li><br>
+                    <img class="AAA" src="./img/A.png" alt="">
+                    <li class="A5">
+                        MNT2030奈米機器人的運作方式以接受使用者投票的訊息、並偵測特定腦部位進行功能增強，<br>
+                        並無讀取個人腦部訊息的相關功能，確保使用者個人想法、兼顧隱私。
+                    </li>
+                </ul>
+                <ul class="con6">
+                    <li class="Q6"><img src="./img/Q.png" alt=""> 如果我之後想退出計畫該怎麼辦？</li><br>
+                    <img class="AAA" src="./img/A.png" alt="">
+                    <li class="A6">
+                        若於加入計畫後想要退出，僅有一次選擇的機會選擇退出。
+                    </li>
+                </ul>
+            
+            </div>  -->
+        </div>
+
+
+
+    </div>
+    
+</body>
+</html>
