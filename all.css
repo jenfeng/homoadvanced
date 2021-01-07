@@ -945,7 +945,7 @@ span
     width: 260px;
     height: 260px;
     position: relative;
-    top: 129.3%;
+    top: 120.3%;
     left: 25%;
     z-index: 4;
     text-align: center;
@@ -966,8 +966,8 @@ span
     width: 260px;
     height: 260px;
     position: relative;
-    top: 98%;
-    left: 37.4%;
+    top: 95.5%;
+    left: 36.4%;
     z-index: 4;
 }
 .object:hover
@@ -976,7 +976,7 @@ span
 }
 .object_txt
 {
-    top: 100.7%;
+    top: 99.7%;
     left: 42%;
     position: relative;
     display: inline-block;
@@ -987,7 +987,7 @@ span
     height: 260px;
     position: relative;
     top: 66.4%;
-    left: 55%;
+    left: 56%;
     z-index: 4;
 }
 .thing:hover
@@ -996,7 +996,7 @@ span
 }
 .thing_txt
 {
-    top: 69%;
+    top: 67%;
     left: 61%;
     position: relative;
     display: inline-block;
